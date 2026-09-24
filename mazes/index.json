@@ -1,0 +1,512 @@
+{
+ "date": "2026-09-24",
+ "journal": [
+  "rhombitri 1200 cases : plancher occup 0.125 non tenu, repris à 0.09"
+ ],
+ "fiches": [
+  {
+   "num": "01",
+   "nom": "Hat tiling",
+   "mot": "Small",
+   "fichier": "hat-tiling-maze-small",
+   "trame": "hat",
+   "slug": "hat",
+   "n": 292,
+   "cible": 300,
+   "sol": 63,
+   "seed": 20369243,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.76,
+   "occup": 0.216,
+   "arete": 2.79,
+   "pas": 11.05
+  },
+  {
+   "num": "02",
+   "nom": "Hat tiling",
+   "mot": "Medium",
+   "fichier": "hat-tiling-maze-medium",
+   "trame": "hat",
+   "slug": "hat",
+   "n": 642,
+   "cible": 650,
+   "sol": 92,
+   "seed": 20269241,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.64,
+   "occup": 0.143,
+   "arete": 1.86,
+   "pas": 7.41
+  },
+  {
+   "num": "03",
+   "nom": "Hat tiling",
+   "mot": "Large",
+   "fichier": "hat-tiling-maze-large",
+   "trame": "hat",
+   "slug": "hat",
+   "n": 1169,
+   "cible": 1200,
+   "sol": 151,
+   "seed": 20369245,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.125
+   },
+   "etendue": 0.72,
+   "occup": 0.129,
+   "arete": 1.43,
+   "pas": 5.51
+  },
+  {
+   "num": "04",
+   "nom": "Spectre tile",
+   "mot": "Small",
+   "fichier": "spectre-tile-maze-small",
+   "trame": "spectre",
+   "slug": "spectre",
+   "n": 304,
+   "cible": 300,
+   "sol": 57,
+   "seed": 20269250,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.6,
+   "occup": 0.188,
+   "arete": 3.51,
+   "pas": 10.76
+  },
+  {
+   "num": "05",
+   "nom": "Spectre tile",
+   "mot": "Medium",
+   "fichier": "spectre-tile-maze-medium",
+   "trame": "spectre",
+   "slug": "spectre",
+   "n": 634,
+   "cible": 650,
+   "sol": 119,
+   "seed": 20269251,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.84,
+   "occup": 0.188,
+   "arete": 2.45,
+   "pas": 7.44
+  },
+  {
+   "num": "06",
+   "nom": "Spectre tile",
+   "mot": "Large",
+   "fichier": "spectre-tile-maze-large",
+   "trame": "spectre",
+   "slug": "spectre",
+   "n": 1172,
+   "cible": 1200,
+   "sol": 171,
+   "seed": 20269252,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.125
+   },
+   "etendue": 0.8,
+   "occup": 0.146,
+   "arete": 1.85,
+   "pas": 5.49
+  },
+  {
+   "num": "07",
+   "nom": "Penrose tiling",
+   "mot": "Small",
+   "fichier": "penrose-tiling-maze-small",
+   "trame": "penrose",
+   "slug": "penrose",
+   "n": 294,
+   "cible": 300,
+   "sol": 68,
+   "seed": 20269260,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.68,
+   "occup": 0.231,
+   "arete": 11.18,
+   "pas": 10.9
+  },
+  {
+   "num": "08",
+   "nom": "Penrose tiling",
+   "mot": "Medium",
+   "fichier": "penrose-tiling-maze-medium",
+   "trame": "penrose",
+   "slug": "penrose",
+   "n": 637,
+   "cible": 650,
+   "sol": 151,
+   "seed": 20269261,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.8,
+   "occup": 0.237,
+   "arete": 7.85,
+   "pas": 7.43
+  },
+  {
+   "num": "09",
+   "nom": "Penrose tiling",
+   "mot": "Large",
+   "fichier": "penrose-tiling-maze-large",
+   "trame": "penrose",
+   "slug": "penrose",
+   "n": 1177,
+   "cible": 1200,
+   "sol": 164,
+   "seed": 20269262,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.125
+   },
+   "etendue": 0.76,
+   "occup": 0.139,
+   "arete": 5.84,
+   "pas": 5.5
+  },
+  {
+   "num": "10",
+   "nom": "Cairo pentagonal tiling",
+   "mot": "Small",
+   "fichier": "cairo-pentagonal-tiling-maze-small",
+   "trame": "cairo",
+   "slug": "cairo-pentagonal",
+   "n": 322,
+   "cible": 300,
+   "sol": 70,
+   "seed": 20269270,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.64,
+   "occup": 0.217,
+   "arete": 8.08,
+   "pas": 10.46
+  },
+  {
+   "num": "11",
+   "nom": "Cairo pentagonal tiling",
+   "mot": "Medium",
+   "fichier": "cairo-pentagonal-tiling-maze-medium",
+   "trame": "cairo",
+   "slug": "cairo-pentagonal",
+   "n": 640,
+   "cible": 650,
+   "sol": 98,
+   "seed": 20269271,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.64,
+   "occup": 0.153,
+   "arete": 5.85,
+   "pas": 7.47
+  },
+  {
+   "num": "12",
+   "nom": "Cairo pentagonal tiling",
+   "mot": "Large",
+   "fichier": "cairo-pentagonal-tiling-maze-large",
+   "trame": "cairo",
+   "slug": "cairo-pentagonal",
+   "n": 1161,
+   "cible": 1200,
+   "sol": 161,
+   "seed": 20269272,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.125
+   },
+   "etendue": 0.72,
+   "occup": 0.139,
+   "arete": 4.39,
+   "pas": 5.54
+  },
+  {
+   "num": "13",
+   "nom": "Rhombille tiling",
+   "mot": "Small",
+   "fichier": "rhombille-tiling-maze-small",
+   "trame": "rhombille",
+   "slug": "rhombille",
+   "n": 300,
+   "cible": 300,
+   "sol": 71,
+   "seed": 20269280,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.68,
+   "occup": 0.237,
+   "arete": 11.4,
+   "pas": 10.86
+  },
+  {
+   "num": "14",
+   "nom": "Rhombille tiling",
+   "mot": "Medium",
+   "fichier": "rhombille-tiling-maze-medium",
+   "trame": "rhombille",
+   "slug": "rhombille",
+   "n": 666,
+   "cible": 650,
+   "sol": 118,
+   "seed": 20269281,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.64,
+   "occup": 0.177,
+   "arete": 7.74,
+   "pas": 7.32
+  },
+  {
+   "num": "15",
+   "nom": "Rhombille tiling",
+   "mot": "Large",
+   "fichier": "rhombille-tiling-maze-large",
+   "trame": "rhombille",
+   "slug": "rhombille",
+   "n": 1176,
+   "cible": 1200,
+   "sol": 162,
+   "seed": 20369285,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.125
+   },
+   "etendue": 0.68,
+   "occup": 0.138,
+   "arete": 5.83,
+   "pas": 5.49
+  },
+  {
+   "num": "16",
+   "nom": "Truncated square tiling",
+   "mot": "Small",
+   "fichier": "truncated-square-tiling-maze-small",
+   "trame": "truncsq",
+   "slug": "truncated-square",
+   "n": 284,
+   "cible": 300,
+   "sol": 55,
+   "seed": 20269290,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.6,
+   "occup": 0.194,
+   "arete": 6.3,
+   "pas": 11.2
+  },
+  {
+   "num": "17",
+   "nom": "Truncated square tiling",
+   "mot": "Medium",
+   "fichier": "truncated-square-tiling-maze-medium",
+   "trame": "truncsq",
+   "slug": "truncated-square",
+   "n": 635,
+   "cible": 650,
+   "sol": 106,
+   "seed": 20269291,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.72,
+   "occup": 0.167,
+   "arete": 4.2,
+   "pas": 7.28
+  },
+  {
+   "num": "18",
+   "nom": "Truncated square tiling",
+   "mot": "Large",
+   "fichier": "truncated-square-tiling-maze-large",
+   "trame": "truncsq",
+   "slug": "truncated-square",
+   "n": 1182,
+   "cible": 1200,
+   "sol": 172,
+   "seed": 20269292,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.125
+   },
+   "etendue": 0.8,
+   "occup": 0.146,
+   "arete": 3.15,
+   "pas": 5.44
+  },
+  {
+   "num": "19",
+   "nom": "Rhombitrihexagonal tiling",
+   "mot": "Small",
+   "fichier": "rhombitrihexagonal-tiling-maze-small",
+   "trame": "rhombitri",
+   "slug": "rhombitrihexagonal",
+   "n": 301,
+   "cible": 300,
+   "sol": 60,
+   "seed": 20269300,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.68,
+   "occup": 0.199,
+   "arete": 9.74,
+   "pas": 10.35
+  },
+  {
+   "num": "20",
+   "nom": "Rhombitrihexagonal tiling",
+   "mot": "Medium",
+   "fichier": "rhombitrihexagonal-tiling-maze-medium",
+   "trame": "rhombitri",
+   "slug": "rhombitrihexagonal",
+   "n": 608,
+   "cible": 650,
+   "sol": 112,
+   "seed": 20269301,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.72,
+   "occup": 0.184,
+   "arete": 6.99,
+   "pas": 7.61
+  },
+  {
+   "num": "21",
+   "nom": "Rhombitrihexagonal tiling",
+   "mot": "Large",
+   "fichier": "rhombitrihexagonal-tiling-maze-large",
+   "trame": "rhombitri",
+   "slug": "rhombitrihexagonal",
+   "n": 1230,
+   "cible": 1200,
+   "sol": 160,
+   "seed": 20824859,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.09
+   },
+   "etendue": 0.68,
+   "occup": 0.13,
+   "arete": 5.01,
+   "pas": 5.38
+  },
+  {
+   "num": "22",
+   "nom": "Pinwheel tiling",
+   "mot": "Small",
+   "fichier": "pinwheel-tiling-maze-small",
+   "trame": "pinwheel",
+   "slug": "pinwheel",
+   "n": 300,
+   "cible": 300,
+   "sol": 61,
+   "seed": 20269310,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.64,
+   "occup": 0.203,
+   "arete": 9.99,
+   "pas": 10.83
+  },
+  {
+   "num": "23",
+   "nom": "Pinwheel tiling",
+   "mot": "Medium",
+   "fichier": "pinwheel-tiling-maze-medium",
+   "trame": "pinwheel",
+   "slug": "pinwheel",
+   "n": 636,
+   "cible": 650,
+   "sol": 135,
+   "seed": 20269311,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.14
+   },
+   "etendue": 0.84,
+   "occup": 0.212,
+   "arete": 7,
+   "pas": 7.44
+  },
+  {
+   "num": "24",
+   "nom": "Pinwheel tiling",
+   "mot": "Large",
+   "fichier": "pinwheel-tiling-maze-large",
+   "trame": "pinwheel",
+   "slug": "pinwheel",
+   "n": 1212,
+   "cible": 1200,
+   "sol": 173,
+   "seed": 20269312,
+   "unique": true,
+   "plancher": {
+    "etendue": 0.6,
+    "occup": 0.125
+   },
+   "etendue": 0.72,
+   "occup": 0.143,
+   "arete": 5.21,
+   "pas": 5.42
+  }
+ ]
+}
