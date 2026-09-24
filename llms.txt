@@ -1,0 +1,124 @@
+# Unsquare Mazes
+
+> 24 free printable mazes on tilings that are not squares: the hat, the spectre, Penrose rhombi, Cairo pentagons and more. Three sizes, 300 to 1,200 cells, one solution each. PDF and SVG. Free for personal and classroom use.
+
+Unsquare Mazes publishes mazes drawn on mathematical tilings instead of square grids. Every maze has exactly one solution.
+
+## Hat tiling mazes
+
+One tile, shaped like a hat, covers the whole plane. Some copies are mirror images of the others, and the pattern never repeats.
+
+- [Hat tiling maze, small, 292 cells](https://unsquare-mazes.github.io/mazes/hat-tiling-maze-small.pdf): A4 PDF, maze then solution
+- [Hat tiling maze, medium, 642 cells](https://unsquare-mazes.github.io/mazes/hat-tiling-maze-medium.pdf): A4 PDF, maze then solution
+- [Hat tiling maze, large, 1,169 cells](https://unsquare-mazes.github.io/mazes/hat-tiling-maze-large.pdf): A4 PDF, maze then solution
+
+## Spectre tile mazes
+
+One tile with fourteen sides of equal length covers the whole plane, with no mirror copies. The pattern never repeats.
+
+- [Spectre tile maze, small, 304 cells](https://unsquare-mazes.github.io/mazes/spectre-tile-maze-small.pdf): A4 PDF, maze then solution
+- [Spectre tile maze, medium, 634 cells](https://unsquare-mazes.github.io/mazes/spectre-tile-maze-medium.pdf): A4 PDF, maze then solution
+- [Spectre tile maze, large, 1,172 cells](https://unsquare-mazes.github.io/mazes/spectre-tile-maze-large.pdf): A4 PDF, maze then solution
+
+## Penrose tiling mazes
+
+A thin rhombus and a thick rhombus fit together with five-fold symmetry. The pattern never repeats.
+
+- [Penrose tiling maze, small, 294 cells](https://unsquare-mazes.github.io/mazes/penrose-tiling-maze-small.pdf): A4 PDF, maze then solution
+- [Penrose tiling maze, medium, 637 cells](https://unsquare-mazes.github.io/mazes/penrose-tiling-maze-medium.pdf): A4 PDF, maze then solution
+- [Penrose tiling maze, large, 1,177 cells](https://unsquare-mazes.github.io/mazes/penrose-tiling-maze-large.pdf): A4 PDF, maze then solution
+
+## Cairo pentagonal tiling mazes
+
+Every cell is the same pentagon, and every pentagon shares a side with five others.
+
+- [Cairo pentagonal tiling maze, small, 322 cells](https://unsquare-mazes.github.io/mazes/cairo-pentagonal-tiling-maze-small.pdf): A4 PDF, maze then solution
+- [Cairo pentagonal tiling maze, medium, 640 cells](https://unsquare-mazes.github.io/mazes/cairo-pentagonal-tiling-maze-medium.pdf): A4 PDF, maze then solution
+- [Cairo pentagonal tiling maze, large, 1,161 cells](https://unsquare-mazes.github.io/mazes/cairo-pentagonal-tiling-maze-large.pdf): A4 PDF, maze then solution
+
+## Rhombille tiling mazes
+
+One rhombus in three orientations. The eye reads the pattern as stacked cubes.
+
+- [Rhombille tiling maze, small, 300 cells](https://unsquare-mazes.github.io/mazes/rhombille-tiling-maze-small.pdf): A4 PDF, maze then solution
+- [Rhombille tiling maze, medium, 666 cells](https://unsquare-mazes.github.io/mazes/rhombille-tiling-maze-medium.pdf): A4 PDF, maze then solution
+- [Rhombille tiling maze, large, 1,176 cells](https://unsquare-mazes.github.io/mazes/rhombille-tiling-maze-large.pdf): A4 PDF, maze then solution
+
+## Truncated square tiling mazes
+
+Regular octagons with small squares between them. Every corner joins one square and two octagons.
+
+- [Truncated square tiling maze, small, 284 cells](https://unsquare-mazes.github.io/mazes/truncated-square-tiling-maze-small.pdf): A4 PDF, maze then solution
+- [Truncated square tiling maze, medium, 635 cells](https://unsquare-mazes.github.io/mazes/truncated-square-tiling-maze-medium.pdf): A4 PDF, maze then solution
+- [Truncated square tiling maze, large, 1,182 cells](https://unsquare-mazes.github.io/mazes/truncated-square-tiling-maze-large.pdf): A4 PDF, maze then solution
+
+## Rhombitrihexagonal tiling mazes
+
+Triangles, squares and hexagons. Every corner joins one triangle, two squares and one hexagon.
+
+- [Rhombitrihexagonal tiling maze, small, 301 cells](https://unsquare-mazes.github.io/mazes/rhombitrihexagonal-tiling-maze-small.pdf): A4 PDF, maze then solution
+- [Rhombitrihexagonal tiling maze, medium, 608 cells](https://unsquare-mazes.github.io/mazes/rhombitrihexagonal-tiling-maze-medium.pdf): A4 PDF, maze then solution
+- [Rhombitrihexagonal tiling maze, large, 1,230 cells](https://unsquare-mazes.github.io/mazes/rhombitrihexagonal-tiling-maze-large.pdf): A4 PDF, maze then solution
+
+## Pinwheel tiling mazes
+
+One right triangle with sides 1, 2 and √5. Its copies point in infinitely many directions, and the pattern never repeats.
+
+- [Pinwheel tiling maze, small, 300 cells](https://unsquare-mazes.github.io/mazes/pinwheel-tiling-maze-small.pdf): A4 PDF, maze then solution
+- [Pinwheel tiling maze, medium, 636 cells](https://unsquare-mazes.github.io/mazes/pinwheel-tiling-maze-medium.pdf): A4 PDF, maze then solution
+- [Pinwheel tiling maze, large, 1,212 cells](https://unsquare-mazes.github.io/mazes/pinwheel-tiling-maze-large.pdf): A4 PDF, maze then solution
+
+## How the mazes are carved
+
+A maze generator usually runs one classic algorithm, once, and prints what comes out. Ours works in stages, and most of the work goes into the parts you do not see at first.
+
+- **The way through comes first.** The engine lays out the solution before anything else, and it makes the path wander into every region of the drawing instead of cutting across it.
+- **Dead ends are carved as mazes of their own.** Each one gets its own branches. They are carved in the same hand as the true path, so at a glance nothing tells them apart. Large ones take up the space. Small ones blur their edges.
+- **In the larger mazes, some dead ends loop.** You can walk around one for a long while before you notice you are back where you started. Each loop gets as many forks as the rest of the maze, so it does not stand out.
+- **Hard, without the busywork.** A long solution is easy to make and tiring to follow, so the engine does not reward length. It scores each maze on how far the path roams, how often it offers a real choice, and how deep a wrong choice takes you before you find out. Dead ends you can rule out without lifting the pencil count against a maze.
+- **Twenty candidates, one kept.** Every maze here was carved twenty times, with a different result each time. The candidates are scored against each other and the best one is kept. If none of them clears the bar, the whole batch is thrown out and carved again.
+- **One way through, checked.** Before a maze is published, the engine checks every step of the solution: take that step away and the entrance is cut off from the exit. That is what keeps the solution single, loops included.
+
+Each setting behind these steps was tuned by hand: how long a corridor runs before it turns, how big a dead end may grow. Each one was set by carving sample mazes, measuring them and looking at them, then set again.
+
+## Questions
+
+### Are these mazes free?
+
+Yes. All 24 mazes are free to download and print, as PDF and SVG, for personal and classroom use.
+
+### Can I use them in class?
+
+Yes. Print as many copies as your students need. Please do not resell them.
+
+### What paper size do they print on?
+
+Each PDF has two A4 pages: the maze, then its solution. On US Letter, print with “fit to page”. The SVG scales to any size.
+
+### Does every maze have only one solution?
+
+Yes. Every maze is checked before it is published: each step of the solution is a bridge, so there is no second way through.
+
+### What is an aperiodic tiling?
+
+A way to cover the plane with tiles so that the pattern never repeats, however far you shift it. Four tilings here are aperiodic: the hat, the spectre, Penrose rhombi and the pinwheel.
+
+### What is the hat tiling?
+
+A tiling made from copies of a single tile shaped like a hat. It covers the whole plane, some copies are mirror images, and the pattern never repeats.
+
+### What is the spectre tile?
+
+A single tile with fourteen sides of equal length. It covers the whole plane without mirror copies, and the pattern never repeats.
+
+### What is a Penrose tiling?
+
+A tiling made from two rhombi, a thin one and a thick one, fitted together with five-fold symmetry so that the pattern never repeats.
+
+### How are the mazes made?
+
+Our own engine carves each maze in two passes. First the solution path, then the dead ends, each carved as a small maze of its own. Some dead ends close into loops. Twenty candidates are carved for every maze and scored, and the best one is kept.
+
+### Are there bigger mazes?
+
+Yes. The free mazes stop at about 1,200 cells. The Unsquare Mazes book picks up from there: fifty mazes of about 1,000 to 2,400 cells, one per page.
